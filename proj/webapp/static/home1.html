@@ -1,0 +1,218 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width-device-widht' initial-cale-1.0" />
+        <title> Web World  </title>
+        <style>
+            *{
+                margin: 0;
+                padding: 10;
+                font: Arial, Helvetica, sans-serif;
+               
+             }
+            nav
+             {
+                display: flex;
+                color: rgb(255, 255, 255);
+                justify-content: space-between;
+                align-items: center;
+                padding: 0 20px;
+                font-weight: bolder;
+                font-size: xx-large;
+                font: comic small-caps;
+             }  
+             body{
+                background-image:url("purplewall.jpg");  
+                background-size: cover;
+             }  
+            nav ul
+            {
+                display: flex;
+            }
+            nav ul {
+                list-style-type: none;
+            }
+            nav ul li{
+                margin: 0 10px;
+                padding: 10px 20px
+            } 
+            nav ul li a{
+                text-decoration: none;
+                color: rgb(7, 196, 221);
+                font-size:larges;
+                cursor: pointer;
+                
+            }
+            nav ul li ::before,
+             nav ul li ::after
+
+            {
+                position: absolute;
+                content: '';
+                width: 0%;
+                height: 2px;
+                background-color: #fff;
+                transition: 0.3s all ease-in-out;
+
+            }
+            ul li ::before{
+                top:0;
+                left:0;
+            }
+            ul li ::after{
+                bottom:0;
+                right: 0;
+            }
+            nav ul li a:hover ::before {
+                right: 0;
+                width: 100%;
+                left: auto;
+                background-color:  #5607f4a7;
+
+            }
+            nav ul li a:hover ::after {
+            right:auto;
+            left: 0;
+            width: 100%;
+            background-color: #5607f4a7;
+            }
+            nav ul li a:hover {
+              background-color:   #5607f4a7;   
+            }
+
+
+            button {
+                padding: 5px 10px;
+                border-radius: 0px;
+               color: blue;
+               font-weight: bolder;
+            }
+            nav ul li a:hover {
+                color:yellow;
+                transition: 1s all;
+                cursor: pointer;
+                border-radius: 30px;
+
+            }
+            span{
+                color:blueviolet;
+            }
+            .span {
+                color: Aqua;
+            }
+            .content
+            {
+            top: 150px;
+             right: 75px;
+             text-align: left;
+             font-size: xx-large;
+             font: Arial;
+             color: white;
+
+            }
+            nav .subtitle  {
+                top: 0px;
+                right: 5px;
+                color: red;
+                font-size: small;
+
+            }
+                .text p {
+                color: white;
+                text-transform: capitalize;
+                font-size: 15px;
+                margin-bottom: -30px;
+                word-spacing: 2px;
+                letter-spacing: 1px;
+
+            }   
+            .login {
+                margin: 0px 10px;
+                border: 2px solid #6fa1f8;
+                padding: 13px 35px;
+                letter-spacing: 1px;
+                color: white;
+                border-radius: 30px;
+                background-color: #6fa1f8;
+                text-decoration: none;
+            }
+            .login:hover {
+                border: 2px solid #6fa1f8;
+                color: #6fa1f8;
+                background-color: white;
+                transition: 0.5s;
+                cursor: pointer;
+            } 
+            .signup {
+                margin: 0px 10px;
+                border: 2px solid #6fa1f8;
+                padding: 13px 35px;
+                letter-spacing: 1px;
+                color: white;
+                border-radius: 30px;
+                background-color: #6fa1f8;
+                text-decoration: none;
+            }
+            .signup:hover {
+                border: 2px solid #6fa1f8;
+                color: #6fa1f8;
+                background-color: white;
+                transition: 0.5s;
+                cursor: pointer;
+        
+            }
+            .footer {
+                background-color: #6fa1f8;
+                margin-top: auto;
+align-items: bottom;
+
+            }
+        </style>
+    </head>
+    <body>
+            <nav>
+                <h2>BREAKING <span>WEB</span></h2>
+            
+                <ul> 
+                    <li><a href="home1.html">HOME</a></li>
+                    <li><a href="people.html">ABOUT</a></li>
+                    <li><a href="product.html">SERVICE</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    
+
+                </ul>
+
+                <div class="search">
+                <form>
+                    <input type="text" size="15"  placeholder="Search...">
+                    <button type="Submit">Search</button>
+                </form>
+                </div>
+            </nav>
+            <br>
+            <br>
+            <div class="content">
+                <div class="text">
+                    
+                  
+                  <div class="title">  <p><h1>SOFTWARE DEVELOPMENT
+                    <br> COMPANY </h1>
+                    </p>
+                    </div>
+                    <div>
+                      <h5> We build innovative WEB Site and Apps</h5>
+                    
+                    </div>
+                </div>
+                <div>
+                    <a href="#" class="login"> Log In </a>
+                    <a href="#" class="signup"> Sign Up </a>
+                </div>
+                <br>
+               
+            
+            
+            </div>
+</body>
+</html>
